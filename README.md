@@ -2,13 +2,13 @@
 
 A RESTful API built with Laravel to manage recipes, ingredients, and cooking steps while integrating a Nutrition API to calculate nutritional values.
 
-## ⚙️ Installation
+## Installation
 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/laravel-nutrition-api.git
-cd laravel-nutrition-api
+git clone https://github.com/shirazJafri/recipe-nutrition.git
+cd recipe-nutrition
 ```
 
 2. **Install dependencies:**
