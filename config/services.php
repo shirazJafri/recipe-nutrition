@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'nutrition' => [
+        'url' => env('NUTRITION_API_URI'),
+        'username' => env('NUTRITION_API_USERNAME'),
+        'password' => env('NUTRITION_API_PASSWORD')
+    ]
+
 ];
