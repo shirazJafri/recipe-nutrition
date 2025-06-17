@@ -36,4 +36,17 @@ class NutritionService
             ->post($this->url, $ingredientData);
     }
 
+    public function calculateNutrition(array $ingredients)
+    {
+        $totals = ['carbs' => 0, 'fat' => 0, 'protein' => 0];
+
+        foreach ($ingredients as $ingredient) {
+            $totals['carbs'] += $ingredient['carbs'];
+            $totals['fat'] += $ingredient['fat'];
+            $totals['protein'] += $ingredient['protein'];
+        }
+
+        return $totals;
+    }
+
 }
