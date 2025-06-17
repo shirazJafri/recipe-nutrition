@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 class RecipeController extends Controller
 {
 
-    protected $nutritionService;
+    protected $nutritionService; # inject service into controller
 
     public function __construct(NutritionService $nutritionService)
     {
